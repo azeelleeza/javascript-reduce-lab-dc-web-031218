@@ -15,6 +15,7 @@ describe('reducers', function() {
 
   describe('The perfect monologue', function() {
     it('should have a `wordCountMap` variable', function() {
+      console.log('!!!!!',wordCountMap);
       expect(wordCountMap).toExist();
     });
 
